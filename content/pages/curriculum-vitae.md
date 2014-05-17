@@ -30,6 +30,9 @@ Summary: Curriculum Vitae of Joonas Haapala
 
 ## Work History
 
+#### May 2014-August 2014 **[Aalto University Systems Analysis Laboratory](http://sal.aalto.fi/en/)**
+> Research assistant in a graph optimization project
+
 #### May 2012-August 2013: **[Rovio Entertainment Ltd.](http://www.rovio.com/)**
 > Multi-platform game development in C++ and Lua. Published [Angry Birds Friends](https://play.google.com/store/apps/details?id=com.rovio.angrybirdsfriends) for iOS and Android in May 2013
 
