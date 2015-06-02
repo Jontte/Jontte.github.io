@@ -30,7 +30,7 @@ Summary: Curriculum Vitae of Joonas Haapala
 
 ## Work History
 
-#### May 2014-August 2014 **[Aalto University Systems Analysis Laboratory](http://sal.aalto.fi/en/)**
+#### May 2014-December 2014 **[Aalto University Systems Analysis Laboratory](http://sal.aalto.fi/en/)**
 > Research assistant in a graph optimization project
 
 #### May 2012-August 2013: **[Rovio Entertainment Ltd.](http://www.rovio.com/)**
@@ -67,10 +67,12 @@ Summary: Curriculum Vitae of Joonas Haapala
 
 ## Technologies
 * C++
+* OpenCL
 * Linux
 * JavaScript
 
 ## Achievements
+* Represented Aalto University at the [NWERC](http://2014.nwerc.eu/) 2014 algorithm programming contest in Linköping, Sweden
 * Captain of the third best Finnish team in NCPC 2011 and 26th best out of all participating Nordic teams (189 in total)  [http://ncpc2011.contest.scrool.se/standings/?icpc](http://ncpc2011.contest.scrool.se/standings/?icpc)
 * Participation in [International Young Physicists’ Tournament](http://www.iypt.org/) 2009 (China, Tianjin, Nankai University) where I was the captain of the five-member Finnish team
 * Became 4th in Datatähti 2010 Information Technology competition for upper secondary school students

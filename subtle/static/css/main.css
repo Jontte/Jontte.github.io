@@ -57,6 +57,7 @@ hr { border: 2px solid #EEEEEE; }
 /* Anchors */
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
+
 a:link, a:visited {
 	color: #7A4700;
 	padding: 0 1px;
@@ -160,6 +161,7 @@ img.right figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 img.border {border: 5px solid #C0C0C0;}
+img.center {padding: 10px; display: block; margin-left: auto; margin-right: auto;}
 
 /*
 	Header

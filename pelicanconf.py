@@ -49,7 +49,7 @@ IMAGE_PATH='/content/images'
 THUMBNAIL_DIR='/output/thumbnails'
 
 PLUGIN_PATH = '/home/joonas/pelican-plugins'
-PLUGINS = ['liquid_tags.img', 'liquid_tags.video']#, 'thumbnailer', 'gallery']
+PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'latex']#, 'thumbnailer', 'gallery']
 
 MENUITEMS = [('Home','/')]
 
