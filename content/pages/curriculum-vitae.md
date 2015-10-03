@@ -70,7 +70,8 @@ Summary: Curriculum Vitae of Joonas Haapala
 
 ## Technologies
 * C++
-* OpenCL
+* Python
+* OpenCL + CUDA
 * Linux
 * JavaScript
 
