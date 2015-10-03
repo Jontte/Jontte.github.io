@@ -30,6 +30,9 @@ Summary: Curriculum Vitae of Joonas Haapala
 
 ## Work History
 
+#### June 2015-August 2015 **[KONE Corporation](http://www.kone.com/en/)**
+> Software Developer in the People Flow Planning team
+
 #### May 2014-December 2014 **[Aalto University Systems Analysis Laboratory](http://sal.aalto.fi/en/)**
 > Research assistant in a graph optimization project
 
