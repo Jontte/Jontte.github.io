@@ -3,114 +3,81 @@
 <head>
         <title>Haapa.la - misc</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="http://haapa.la/theme/css/main.css" type="text/css" />
-   
+        <link rel="stylesheet" href="../theme/css/main.css" type="text/css" />
+        <link href="../" type="application/atom+xml" rel="alternate" title="Haapa.la ATOM Feed" />
 
         <!--[if IE]>
                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
         <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="http://haapa.la/css/ie.css"/>
-                <script src="http://haapa.la/js/IE8.js" type="text/javascript"></script><![endif]-->
+                <link rel="stylesheet" type="text/css" media="all" href="../css/ie.css"/>
+                <script src="../js/IE8.js" type="text/javascript"></script><![endif]-->
 
         <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="http://haapa.la/css/ie6.css"/><![endif]-->
+                <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
+
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://haapa.la">Haapa.la </a></h1>
-                <nav><ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="http://haapa.la/pages/curriculum-vitae.html">CV</a></li>
-                    <li><a href="http://haapa.la/pages/isometric-game-engine.html">Isometric Game Engine</a></li>
-                    <li><a href="http://haapa.la/pages/ray-tracing.html">Ray Tracing</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<body>
+	<div id="wrap" style="width:850px">
+        <div id="header">
+            <nav>
+                    <a href="../pages/curriculum-vitae.html">CV</a> ::                    <a href="../pages/intros.html">4K intros</a> ::                    <a href="../pages/isometric-game-engine.html">Isometric Game Engine</a>            </nav>
+        </div>
+
+	    <div id="container" style="width:560px">
+
+            <div class="entry">
         
         
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://haapa.la/towards-agi.html">Towards AGI</a></h1> 
-<footer class="post-info">
-        <abbr class="published" title="2014-05-09T12:00:00">
-                Fri 09 May 2014
-        </abbr>
+            <header>
+            <h1><a href=".." id="site-title">  </a>  <a href="../towards-agi.html" id="page-title">Towards AGI</a></h1>
+<time datetime="2014-05-09T12:00:00+03:00">Fri 09 May 2014</time>            </header>
 
-        <address class="vcard author">
-                By <a class="url fn" href="http://haapa.la/author/joonas-haapala.html">Joonas Haapala</a>
-        </address>
-</footer><!-- /.post-info --><p>Mainstream machine learning research focuses on problems with well-defined boundaries. We might be interested in classifying the contents of a photo to a number of buckets: cats, dogs, people, buildings, etc. Or we might want to <a href="http://www.heritagehealthprize.com/c/hhp">predict the number of days a person has to spend in a hospital next year given their medical records</a>.</p>
+            <article>
+                <p>Mainstream machine learning research focuses on problems with well-defined boundaries. We might be interested in classifying the contents of a photo to a number of buckets: cats, dogs, people, buildings, etc. Or we might want to <a href="http://www.heritagehealthprize.com/c/hhp">predict the number of days a person has to spend in a hospital next year given their medical records</a>.</p>
 <p>The Google ImageNet excels at classifying pictures by their contents, but it can't use that knowledge to describe the features it expects a cat to have or draw one when given a robotic arm and a pencil. It does one thing and it does it well which also applies to the Jeopardy!-winning Watson and the Deep Blue supercomputer that famously beat Garry Kasparov in chess.</p>
-<p><img src="http://haapa.la/images/wafflebot.jpg" alt="Wafflebot" class="border" title="Wafflebot"></p>
+<p><img class="border" src="../images/wafflebot.jpg" title="Wafflebot" alt="Wafflebot"></p>
 <h1>AGI</h1>
 <p>AGI or Artificial General Intelligence is a system that is able to continuously learn from its environment and apply the knowledge in new problem areas. I will argue that in order to construct such a system we will have to pay closer attention to how biology does it.</p>
 <p>The methods used in machine learning are often backed by mathematical formulations. For example the backpropagation algorithm for feedforward neural networks is in essence gradient descent of an error function that measures the distance between the desired output and the current output of a complex nonlinear transform. It is a supervised learning algorithm meaning that there exists a third party teacher entity that supplies it pairs of inputs and outputs in the form a training set. This is in contrast to biology where no central 'teacher signal' exists and layers of neurons instead use unsupervised learning to find representations that capture the most information.</p>
-<p>In feedforward neural networks information is coded as the average firing rate of a neuron, a real number. In biology, however, rate coding is just one of the <a href="https://en.wikipedia.org/wiki/Neural_coding#Coding_schemes">neural coding schemes</a> present. </p>
+<p>In feedforward neural networks information is coded as the average firing rate of a neuron, a real number. In biology, however, rate coding is just one of the <a href="https://en.wikipedia.org/wiki/Neural_coding#Coding_schemes">neural coding schemes</a> present.</p>
 <h1>Numenta</h1>
 <p><a href="http://numenta.org/">Numenta</a> is a company that develops a computational model of the neocortex. Their work is mostly open source with a rapidly growing community and I can highly recommend subscribing to their mailing list(s) for interesting and informative discussion about machine intelligence.</p>
-<p>I've been following their work for some time now and one of my hobby projects is porting the CLA (Cortical Learning Algorithm) to work on a GPU device via OpenCL. My work is available in GitHub: <a href="http://github.com/Jontte/CortiCL">http://github.com/Jontte/CortiCL</a>. I will describe it in detail in a follow-up blog post.</p>                </article>
-            </aside><!-- /#featured -->
+<p>I've been following their work for some time now and one of my hobby projects is porting the CLA (Cortical Learning Algorithm) to work on a GPU device via OpenCL. My work is available in GitHub: <a href="http://github.com/Jontte/CortiCL">http://github.com/Jontte/CortiCL</a>. I will describe it in detail in a follow-up blog post.</p>            </article>
+                <section id="article-list">
+                    <h2>All posts</h2>
+                    <ol>
+        </ol>
+        </section><!-- #article-list -->
         
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://haapa.la/fun-with-markov-chains.html">Fun with Markov chains</a></h1> 
-<footer class="post-info">
-        <abbr class="published" title="2014-01-22T20:20:00">
-                Wed 22 January 2014
-        </abbr>
+ 
+            <li><a href="../pixel-art-guide.html" rel="bookmark" title="Permalink to Pixel Art Guide">Pixel Art Guide</a></li>
+        </ol>
+        </section><!-- #article-list -->
+            </div>
+        </div>
 
-        <address class="vcard author">
-                By <a class="url fn" href="http://haapa.la/author/joonas-haapala.html">Joonas Haapala</a>
-        </address>
-</footer><!-- /.post-info --><p>I learnt that it's possible to use Markov chains for primitive text generation.</p>
-<p>Markov chains are a useful tool with many applications. A Markov chain is a set of states with the Markov property: the transition probability to the next state only depends on the current state.</p>
-<p>Now if I take a piece of text and give each word a unique state I can approximate the probability of jumping from one word to the next by counting the number of jumps in the source text. Next I pick a starting word and start traversing the chain with a <a href="https://en.wikipedia.org/wiki/Pseudorandom_number_generator">PRNG</a> at hand.</p>
-<p>But what I end up with doesn't sound very much like English. The problem is that languages contain structure and sentences are not just random words crammed in together. By the time the generator jumps to the next word it has already forgotten what it said earlier in the same sentence!</p>
-<p>What we can do is give each word triplet one state and call it a third-order Markov chain. Now all transitions depend on the previous three words. This way the system captures common structural primitives in languages and the output start to sound a bit more natural (but it's still pretty far). </p>
-<p>I found three to be a pretty good size for word context. Higher order models end up with an exact copy of the source text, unless the source is really, really long.</p>
-<p><a href="http://haapa.la/crusoe.txt">Here's some output from my piece of software</a>. This time my source was Daniel Defoe's Robinson Crusoe.</p>
-<p>Here's some generated from <a href="http://haapa.la/biebl.txt">King James's Bible</a>.</p>
-<p>Some gems:</p>
-<blockquote>
-<p>You are to be burned for a sweet smell, an offering of the fruit of the blood at the top of the earth.   </p>
-<p>without doubt Joseph has come to the children of Israel, I AM WHAT I AM WHAT I AM WHAT I AM WHAT I AM and he gave him an account of anything</p>
-</blockquote>
-<p>Further reading: <a href="http://www.codinghorror.com/blog/2008/06/markov-and-you.html">http://www.codinghorror.com/blog/2008/06/markov-and-you.html</a></p>                </article>
-            </aside><!-- /#featured -->
-        
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://haapa.la/pixel-art-guide.html">Pixel Art Guide</a></h1> 
-<footer class="post-info">
-        <abbr class="published" title="2011-12-16T10:20:00">
-                Fri 16 December 2011
-        </abbr>
+        <div id="sidebar">
+            <h1><a href=".. " title="title">Haapa.la</a></h1>
+            <span class="description"> </span>
+            <!-- <span class="feed"><a href="">RSS</a> | <a href="">Atom</a></span> -->
+        </div>
 
-        <address class="vcard author">
-                By <a class="url fn" href="http://haapa.la/author/joonas-haapala.html">Joonas Haapala</a>
-        </address>
-</footer><!-- /.post-info --><p>When it comes to drawing I’m no artist. Add some mathematics, then maybe just a little. Nothing is as beautiful as a pixel-perfectly drawn isometric 2.5D world.</p>
-<p>Here’s something I put together from old graphics I still have lying around from plethora. (I didn’t draw all of it.) I hope it can encourage more people to try their hands in pixel art. If I can do it, I’m sure anyone can!</p>
-<p><img alt="Beginners Guide To Isometric Graphics Infographic" src="http://haapa.la/images/BeginnersGuideToIsometricGraphics.png" /></p>                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-        </section><!-- /#extras -->
+        <div id="footer">
+            <nav>
+                <ul>
+                </ul>
+            </nav>
 
-        <footer id="contentinfo" class="body">
+            <div id="credits">
+                <span>Adapted from <a href="http://wordpress.org/themes/monospace">Monospace</a> || Created with <a href="">Pelican</a></span>
+            </div>
 
-        </footer><!-- /#contentinfo -->
+        </div>
 
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -121,5 +88,8 @@
         var pageTracker = _gat._getTracker("UA-9759259-5");
     pageTracker._trackPageview();
     } catch(err) {}</script>
+
+    </div>
+
 </body>
 </html>
