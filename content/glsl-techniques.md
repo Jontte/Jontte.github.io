@@ -1,4 +1,4 @@
-Title: GLSL techniques
+[[Title]]: GLSL techniques
 Date: 2014-01-24 10:20
 Modified: 2014-01-24 19:30
 Slug: glsl-techniques

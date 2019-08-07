@@ -3,6 +3,7 @@ Date: 2013-12-16 10:00
 Slug: ray-tracing
 Author: Joonas Haapala
 Summary: Ray Tracing
+Status: hidden
 
 Ray tracing is one of those cool technologies that pop into my head about once a year. Not only are the results beautiful, it also lets the common geek show his competence at programming to the normal folk. I was hugely inspired by [PixelMachine by SuperJer](http://superjer.com/pixelmachine). His work taught me ray tracing sure isn’t rocket science and you can get astonishing results relatively easily.
 

@@ -6,7 +6,7 @@ AUTHOR = u'Joonas Haapala'
 SITENAME = u'Haapa.la'
 SITEURL = 'http://haapa.la'
 
-TIMEZONE = 'Europe/London'
+TIMEZONE = 'Europe/Helsinki'
 
 DEFAULT_LANG = u'en'
 
@@ -15,7 +15,7 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-DEFAULT_DATE = (2014, 01, 22, 14, 0, 0)
+DEFAULT_DATE = (2019, 8, 8, 14, 0, 0)
 GOOGLE_ANALYTICS='UA-9759259-5'
 
 # Blogroll
@@ -35,24 +35,35 @@ TAG_SAVE_AS = ''
 
 STATIC_PATHS = ['extra/favicon.ico', 'images']
 EXTRA_PATH_METADATA = {
-	'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
 DEFAULT_PAGINATION = 10
+#DEFAULT_CATEGORY = ''
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-#THEME = "/home/joonas/site/subtle"
-THEME = "subtle"
+#THEME = "/home/joonas/src/pelican-themes/monospace"
+THEME = "monospace"
+#THEME = "subtle"
 
 IMAGE_PATH='/content/images'
 THUMBNAIL_DIR='/output/thumbnails'
 
-PLUGIN_PATH = '/home/joonas/pelican-plugins'
+PLUGIN_PATH = ['/home/joonas/src/pelican-plugins']
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'latex']#, 'thumbnailer', 'gallery']
 
-MENUITEMS = [('Home','/')]
+MENUITEMS = [
+    #('Home','/'),
+    ('Github', 'https://github.com/Jontte?tab=repositories'),
+]
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
+#LOAD_CONTENT_CACHE = False
+
+#PAGE_PATHS = ['pages']
 
 DIRECT_TEMPLATES = ('index', 'archives')
 
