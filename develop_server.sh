@@ -2,7 +2,7 @@
 ##
 # This section should match your Makefile
 ##
-PY=python
+PY=python3
 PELICAN=pelican
 PELICANOPTS=
 
@@ -96,7 +96,7 @@ elif [[ $1 == "restart" ]]; then
   start_up $port
 elif [[ $1 == "start" ]]; then
   if ! start_up $port; then
-    shut_down 
+    shut_down
   fi
 else
   usage

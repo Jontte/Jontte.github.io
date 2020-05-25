@@ -9,7 +9,10 @@ Tags:
 * Name: Joonas Haapala
 * Email: joonas[removeme]@haapa.la
 * Date of Birth: 30th December, 1990
+
+<!--
 * Place of Birth: Espoo, Finland
+-->
 
 <!--- -->
 
@@ -31,10 +34,15 @@ Specialized degree in natural sciences
  -->
 
 ## Work History
-#### [NVIDIA Helsinki Oy](http://www.nvidia.com/) May 2016 ->
-* Senior Deep Learning Research Engineer
-* Deep Learning Research Engineer
-* Deep Learning Applied Research Intern
+#### [VimAI Oy](https://vim.ai/) December 2019 ->
+* VimAI specializes in AR-based indoor positioning services
+* Developed a point cloud based indoor positioning system in C++
+
+#### [NVIDIA Helsinki Oy](http://www.nvidia.com/) May 2016 -> December 2019
+* Title: Senior Deep Learning Research Engineer
+* Worked in the global team behind the object detector of the NVIDIA self driving car platform.
+    * The main responsibilities were developing the postprocessing stack and bringing the
+      algorithms from the lab to production.
 
 #### **[KONE Corporation](http://www.kone.com/en/)** June 2015 - August 2015
 * Software Developer in the People Flow Planning team
@@ -61,30 +69,29 @@ Specialized degree in natural sciences
 
 <!--- -->
 
-## Interests & Hobbies
+## Interests
 * Machine Learning
 * C++, Python, OpenCL, CUDA
 * Linux
 * Mathematics & Physics
+* 3D printing
 
 <!--- -->
 
-## Personal projects
+## Personal projects (quite old at this point)
 * Implementation of the HTM Cortical Learning Algorithm in OpenCL [http://github.com/Jontte/CortiCL/](http://github.com/Jontte/CortiCL)
+* Several four-kilobyte intro entries to the Assembly demoparty, see [the intros page]({filename}/pages/intros.md)
+
+<!--
 * Distributed Monte Carlo Raytracer (school project) [http://github.com/Jontte/DMCR/](http://github.com/Jontte/DMCR/)
 * Plethora: HTML5 isometric canvas game. Crude physics simulation, animation support, level editor, etc.
 * Sarona: Networked game engine where each level is written in JavaScript. Includes Bullet3D physics simulation, Irrlicht graphics, V8 Javascript engine, custom object replicator API over UDP (with the help of ENet)
 * Quadrivium: A hobby project where a Freenet-like network was built between participating nodes. I ended up designing a custom P2P protocol over UDP.
 * Kohonen network (SOM) for image analysis and content based search
-* Demoscene, see [the intros page]({filename}/pages/intros.md)
+-->
 
 <!--- -->
 
 ## Achievements
-* Represented Aalto University at the [NWERC](http://2015.nwerc.eu/) 2015 algorithm programming contest in Linköping, Sweden
-* Represented Aalto University at the [NWERC](http://2014.nwerc.eu/) 2014 algorithm programming contest in Linköping, Sweden
-* Captain of the third best Finnish team in NCPC 2011 and 26th best out of all participating Nordic teams (189 in total)  [http://ncpc2011.contest.scrool.se/standings/?icpc](http://ncpc2011.contest.scrool.se/standings/?icpc)
-* Participation in [International Young Physicists’ Tournament](http://www.iypt.org/) 2009 (China, Tianjin, Nankai University) where I was the captain of the five-member Finnish team
-* Became 4th in Datatähti 2010 Information Technology competition for upper secondary school students
-* Won bronze in Baltic Olympiad in Informatics (BOI) 2010 held in Tartu, Estonia
-* Participated in International Olympiad in Informatics (IOI) 2010 held in Waterloo, Ontario, Canada
+* Algorithm programming contests: NWERC 2014 & 2015 in Sweden. IOI 2010 in Canada, BOI 2010 in Estonia.
+* [International Young Physicists’ Tournament](http://www.iypt.org/) 2009 (China, Tianjin, Nankai University)

@@ -3,6 +3,7 @@ Date: 2011-12-16 10:00
 Slug: isometric-game-engine
 Author: Joonas Haapala
 Summary: My work on a JS game engine
+Status: hidden
 
 Even more Javascript. This time in the form of a game engine with quick-n-dirty physics simulation. The goal of this project was to study the new HTML5 &lt;canvas&gt; tag and its performance.
 
