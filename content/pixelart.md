@@ -4,6 +4,7 @@ Modified: 2011-12-16 19:30
 Slug: pixel-art-guide
 Author: Joonas Haapala
 Summary: Some thoughts on pixel art
+Status: draft
 Tags:
 
 When it comes to drawing I’m no artist. Add some mathematics, then maybe just a little. Nothing is as beautiful as a pixel-perfectly drawn isometric 2.5D world.

@@ -10,10 +10,6 @@ Tags:
 * Email: joonas[removeme]@haapa.la
 * Date of Birth: 30th December, 1990
 
-<!--
-* Place of Birth: Espoo, Finland
--->
-
 <!--- -->
 
 ## Education
@@ -31,7 +27,7 @@ Specialized degree in natural sciences
 * 2006-2007: Espoonlahti upper secondary school
 * 1997-2006: Nöykkiö comprehensive school and Nöykkiönlaakson koulu
 
- -->
+-->
 
 ## Work History
 #### [VimAI Oy](https://vim.ai/) December 2019 ->

@@ -4,6 +4,7 @@ Modified: 2014-04-02 21:00
 Slug: towards-agi
 Author: Joonas Haapala
 Summary: Towards AGI
+Status: draft
 Tags:
 
 Mainstream machine learning research focuses on problems with well-defined boundaries. We might be interested in classifying the contents of a photo to a number of buckets: cats, dogs, people, buildings, etc. Or we might want to [predict the number of days a person has to spend in a hospital next year given their medical records](http://www.heritagehealthprize.com/c/hhp).
